@@ -1,0 +1,7 @@
+.main {
+    background: url("../assets/backgrounds/main-bg.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

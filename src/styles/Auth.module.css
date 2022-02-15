@@ -1,0 +1,44 @@
+.login_modal {
+    border: rgba(255, 50, 50, 1) 2px dashed;
+    background-color: indigo;
+    position: absolute;
+    z-index: 12;
+    width: 33%;
+    left: 33%;
+    padding: 30px;
+}
+
+.login_modal div {
+    margin-bottom: 15px;
+}
+
+.login_modal input {
+    width: 70%;
+    padding: 10px;
+}
+
+.login_modal button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: lawngreen solid 2px;
+    background-color: darkorchid;
+    color: beige;
+}
+
+.login_modal button:hover,
+.login_modal button:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.login_modal .close_btn {
+    float: right;
+}
+
+form label {
+    color: beige;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,64 @@
+.header {
+    position: relative;
+    background-color: rgba(255, 170, 255, 0.3);
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .section_left {
+    color: beige;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.logo {
+    padding: 0.5% 1%;
+    background-color: rgba(220, 0, 50, 0.95);
+    color: aquamarine;
+    font-size: 170%;
+    border-radius: 30px;
+    border: mediumaquamarine 3px dashed;
+    position: absolute;
+    z-index: 1;
+    left: 1%;
+    top: 9%;
+}
+
+.header .section_right {
+    color: beige;
+    font-family: cursive;
+    font-weight: 500;
+    width: 20%;
+    display: flex;
+}
+
+.header .section_right figure {
+    height: 90%;
+    margin: 0%;
+}
+
+.header .section_right figure img {
+    height: 100%;
+}
+
+.header .section_right span.counter {
+    position: relative;
+    margin-top: 12%;
+    background-color: indianred;
+    border-radius: 10px;
+    padding: 1px 8px;
+    margin-left: -5%;
+    height: fit-content;
+}
+
+.header .section_right span.login_link {
+    position: relative;
+    margin: auto auto auto auto;
+}
+
+.header .section_right span.login_link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}

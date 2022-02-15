@@ -1,0 +1,29 @@
+.wheel {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 1%;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: 400%;
+}
+
+.wheel li {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 25%;
+}
+
+.wheel li img {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}

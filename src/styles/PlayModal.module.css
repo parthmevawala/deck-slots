@@ -1,0 +1,76 @@
+.play_modal {
+    position: absolute;
+    height: 70vh;
+    width: 50%;
+    z-index: 10;
+    background-image: url("../assets/backgrounds/popup-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px beige solid;
+    right: 1%;
+    margin-top: 2%;
+    color: beige;
+    box-shadow: 0 0 20px 10px beige;
+}
+
+.close_button {
+    background-color: transparent;
+    border: transparent;
+    float: right;
+    position: relative;
+    color: beige;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.slots {
+    position: relative;
+    display: flex;
+    margin-top: 8%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    height: 40vh;
+}
+
+.modal_bottom_panel {
+    position: absolute;
+    height: 25%;
+    background-color: rgba(255, 170, 255, 0.3);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action_button {
+    border: 0px;
+    z-index: 3;
+    word-wrap: normal;
+    border-radius: 50%;
+    width: 14%;
+    height: 80%;
+    background-color: beige;
+    color: #7c795d;
+    font-family: cursive;
+    font-size: 140%;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px chocolate inset, 0px 0px 10px 0px ghostwhite;
+    vertical-align: middle;
+    padding: 0 2%;
+}
+
+.action_button:hover {
+    box-shadow: 0px 0px 12px 1px chocolate inset, 0px 0px 12px 1px ghostwhite;
+}
+
+.action_button:active {
+    box-shadow: 0px 0px 15px 2px chocolate inset, 0px 0px 15px 2px ghostwhite;
+}
