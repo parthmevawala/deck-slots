@@ -1,5 +1,5 @@
 const config = {
-    APIUrl: "http://localhost:3001/",
+    APIUrl: "https://deck-slots-backend.herokuapp.com/",
 };
 
 export default config;
